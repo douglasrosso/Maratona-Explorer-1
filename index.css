@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(135, 9, 164);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: larger;
+  background-image: url(https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?cs=srgb&dl=pexels-hristo-fidanov-1252873.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#container {
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 50px; 
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+  border-image-width: 100%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%,rgba(253, 29, 29, 1) 50%,rgba(252, 176, 69, 1) 100%);
+  box-shadow: 0px 0px 10px black;
+}
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 1.2;
+  text-shadow: 0px 0px 10px black;
+}
+p {
+  margin-bottom: 40px;
+  opacity: 1.7;
+  text-shadow: 0px 0px 10px black;
+  font-family: fantasy;
+}     
+input, button {
+  display: center;
+  width: 80%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  border-color: purple;
+}
+input {
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+  background-color: purple;
+  color: white;
+  transition: filter .2s;
+}
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#referencia {
+  margin-top: 100px;
+  text-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+#resposta {
+  margin-top: 30px;
+  color: white;
+  transition: opacity 1s;
+}
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+margin-bottom: 10px;
+color: white;
+}
